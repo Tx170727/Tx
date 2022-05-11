@@ -1,0 +1,31 @@
+
+¥
+java:S1130M"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(¬¼ú„úÿÿÿÿ
+ 
+java:S1130S"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ñğË™
+Ÿ
+java:S1130Y"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ä†ÇH
+R
+java:S1117["7Rename "url" which hides the field declared at line 35.( ±Ï›ıÿÿÿÿ
+J
+java:S2864]"4Iterate over the "entrySet" instead of the "keySet".(÷¤Äò
+J
+java:S2864p"4Iterate over the "entrySet" instead of the "keySet".(â÷Û
+ 
+java:S1130y"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(˜¦äÏ
+T
+java:S1874~"9Remove this use of "SSLContextBuilder"; it is deprecated.(Ô´×ùÿÿÿÿ
+ˆ
+java:S1130¥"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(½Ã–Ô
+ƒ
+java:S1130¥"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(½Ã–Ô
+o
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖëÒ×
+o
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(êø²
+_
+java:S2259"HA "NullPointerException" could be thrown; "httpClient" is nullable here.(—¢¯µ
+]
+java:S2259˜"FA "NullPointerException" could be thrown; "response" is nullable here.(Âì“¡
+^
+java:S2583^"CChange this condition so that it does not always evaluate to "true"(óñóşıÿÿÿÿ

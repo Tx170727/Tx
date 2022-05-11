@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-GateWay/api-GateWay.iml" filepath="$PROJECT_DIR$/api-GateWay/api-GateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_Aliyun/common_utils.iml" filepath="$PROJECT_DIR$/common_Aliyun/common_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guli_parent.iml" filepath="$PROJECT_DIR$/guli_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_edu/server_edu.iml" filepath="$PROJECT_DIR$/server_edu/server_edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_statistcs/server_statistcs.iml" filepath="$PROJECT_DIR$/server_statistcs/server_statistcs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_acl/service_acl.iml" filepath="$PROJECT_DIR$/service_acl/service_acl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_cms/service_cms.iml" filepath="$PROJECT_DIR$/service_cms/service_cms.iml" />
+    </modules>
+  </component>
+</project>

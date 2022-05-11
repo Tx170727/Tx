@@ -1,0 +1,71 @@
+
+[	java:S112f"FDefine and throw a dedicated exception instead of using a generic one.(âÂÅÊ
+\	java:S112›"FDefine and throw a dedicated exception instead of using a generic one.(Óâ°
+\	java:S112Ü"FDefine and throw a dedicated exception instead of using a generic one.(âÂÅÊ
+o	java:S1151"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùûğ´
+t	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ÉÉóşÿÿÿÿ
+t	java:S1153"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›«ãÉûÿÿÿÿ
+£
+java:S1130="‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(ÿæöüÿÿÿÿ
+•
+java:S1130="zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(ÿæöüÿÿÿÿ
+£
+java:S1130A"‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(£ÿ¥›şÿÿÿÿ
+•
+java:S1130A"zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(£ÿ¥›şÿÿÿÿ
+
+java:S1130E"‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(¶‚²
+
+java:S1130F"zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(Óâ°
+
+java:S1130J"‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(ªê…
+
+java:S1130K"zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(Óâ°
+
+java:S1130f"‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(âÂÅÊ
+
+java:S1130f"zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(âÂÅÊ
+Ÿ
+java:S1130š"‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(›İ™
+‘
+java:S1130›"zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(Óâ°
+U
+java:S4719Â"9Replace charset name argument with StandardCharsets.UTF_8(©Ó˜ˆøÿÿÿÿ
+Ÿ
+java:S1130Ü"‡Remove the declaration of thrown exception 'org.apache.http.conn.ConnectTimeoutException' which is a subclass of 'java.lang.Exception'.(âÂÅÊ
+‘
+java:S1130Ü"zRemove the declaration of thrown exception 'java.net.SocketTimeoutException' which is a subclass of 'java.lang.Exception'.(âÂÅÊ
+n
+java:S2737¿"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ö™û
+O
+java:S1874"9Remove this use of "SSLContextBuilder"; it is deprecated.(¬ éh
+Y
+java:S1874¤"BRemove this use of "SSLConnectionSocketFactory"; it is deprecated.(Â³ƒˆ
+˜
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨éÜ¶
+
+java:S1186±"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ù…÷Áıÿÿÿÿ
+
+java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¢Á“±øÿÿÿÿ
+V
+java:S5527¨"?Enable server hostname verification on this SSL/TLS connection.(§¼Éç
+\
+java:S2147Ï"ECombine this catch with the one at line 332, which has the same body.(íåÿÉ
+\
+java:S2147Ò"ECombine this catch with the one at line 332, which has the same body.(”ı¾
+N	java:S106Ë"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(‚àÆûÿÿÿÿ
+N
+java:S1135Í"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135Ğ"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+N
+java:S1135Ó"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
+u
+java:S2293¡"YReplace the type specification in this constructor call with the diamond operator ("<>").(¢Ùøğùÿÿÿÿ
+i
+java:S1192Â"MUse already-defined constant 'charset' instead of duplicating its value here.(©Ó˜ˆøÿÿÿÿ
+}
+java:S1192>"bDefine a constant instead of duplicating this literal "application/x-www-form-urlencoded" 3 times.( ˜ÃÊüÿÿÿÿ
+\
+java:S1192z"FDefine a constant instead of duplicating this literal "https" 6 times.(Òø÷‘

@@ -1,0 +1,13 @@
+
+f
+java:S1192""KDefine a constant instead of duplicating this literal "Bannerlist" 4 times.(¿‹†çıÿÿÿÿ
+k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÃÆµûÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô¬äØüÿÿÿÿ
+}
+java:S14889"bImmediately return this expression instead of assigning it to the temporary variable "crmBanners".(·²àùÿÿÿÿ
+E
+java:S5411#"*Use the primitive boolean expression here.(ªÍÊ ûÿÿÿÿ
+\
+java:S21843"FCast one of the operands of this multiplication operation to a "long".(ß«Ş¯
+H
+java:S1199,"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.edu.tx.mapper.EduCourseMapper">
+    <update id="publishCourse">
+        UPDATE edu_course SET `status` ='Normal'
+        WHERE id = #{courseId}
+    </update>
+
+    <select id="getCourseByCourseId"  resultType="com.edu.tx.entity.vo.SureCourseVo">
+        SELECT ec.id,
+              ec.title
+             ,ec.price,
+               ec.lesson_num as lessonNum,
+               et.`name` as teacherName,
+               es1.title AS subjectParent,
+               es2.title AS subject,
+               ec.cover
+        FROM edu_course ec LEFT JOIN edu_course_description ed ON ec.id = ed.id
+                           LEFT JOIN edu_teacher et ON ec.teacher_id=et.id
+                           LEFT JOIN edu_subject es1 ON ec.subject_parent_id=es1.id
+                           LEFT JOIN edu_subject es2 ON ec.subject_parent_id=es2.id
+        WHERE ec.id=#{courseID}
+    </select>
+    <select id="getCourseInfo" resultType="com.edu.tx.entity.vo.CourseInfoVo">
+        SELECT ec.id,
+               ec.title
+                ,ec.price,
+               ec.lesson_num as lessonNum,
+               ec.cover,
+               ec.buy_count as buyCount,ec.view_count as viewCount,ed.description,
+               et.id as teacherId, et.name as teacherName,et.intro ,et.avatar,
+               es1.id AS subjectLevelOneId,es1.title AS subjectLevelOne,
+               es2.id AS subjectLevelTwoId,es2.title AS subjectLevelTwo
+
+        FROM edu_course ec LEFT JOIN edu_course_description ed ON ec.id = ed.id
+                           LEFT JOIN edu_teacher et ON ec.teacher_id=et.id
+                           LEFT JOIN edu_subject es1 ON ec.subject_parent_id=es1.id
+                           LEFT JOIN edu_subject es2 ON ec.subject_parent_id=es2.id
+        WHERE ec.id=#{courseId}
+
+
+    </select>
+
+</mapper>

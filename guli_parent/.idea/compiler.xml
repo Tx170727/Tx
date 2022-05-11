@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-GateWay" />
+        <module name="service_acl" />
+        <module name="server_edu" />
+        <module name="common_utils" />
+        <module name="utils" />
+        <module name="service_cms" />
+        <module name="server_statistcs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-GateWay" target="1.8" />
+      <module name="common_utils" target="1.8" />
+      <module name="guli_parent" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="server_edu" target="1.8" />
+      <module name="server_statistcs" target="1.8" />
+      <module name="server_vod" target="1.8" />
+      <module name="service_acl" target="1.8" />
+      <module name="service_cms" target="1.8" />
+      <module name="utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-GateWay" options="-parameters" />
+      <module name="common_utils" options="-parameters" />
+      <module name="guli_parent" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="server_edu" options="-parameters" />
+      <module name="server_statistcs" options="-parameters" />
+      <module name="server_vod" options="-parameters" />
+      <module name="service_acl" options="-parameters" />
+      <module name="service_cms" options="-parameters" />
+      <module name="utils" options="-parameters" />
+    </option>
+  </component>
+</project>

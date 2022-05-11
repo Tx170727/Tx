@@ -1,0 +1,14 @@
+
+E
+java:S3740""/Provide the parametrized type for this generic.(‚Ê«
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(Ú“Üİ
+v
+java:S14888"`Immediately return this expression instead of assigning it to the temporary variable "jwtToken".(ÅÊ©¨
+{
+java:S1488a"eImmediately return this expression instead of assigning it to the temporary variable "ucenterMember".(Ú®²Ş
+z
+java:S1488p"]Immediately return this expression instead of assigning it to the temporary variable "count".(ìŒ„8…Ñ‘¥‰0
+G
+java:S54115"*Use the primitive boolean expression here.(”Üşò8Ïıò½‰0
+Z
+java:S2259R"?A "NullPointerException" could be thrown; "o" is nullable here.( íÉÔÿÿÿÿÿ

@@ -1,0 +1,29 @@
+
+`	java:S112]"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+a	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(Ãü–…
+M	java:S1068"9Replace this use of System.out or System.err by a logger.(™³à
+M	java:S1069"9Replace this use of System.out or System.err by a logger.(’¾æ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ª›ğºüÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(Ãº‹Ó
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(Ó³¾üÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(¹ÖÄ
+C
+java:S2447`"-Null is returned but a "Boolean" is expected.(¥¹ï
+R
+java:S1854["<Remove this useless assignment to local variable "response".(„Øâì
+H
+java:S1481V"-Remove this unused "response" local variable.(×îœğúÿÿÿÿ
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(ıÿøó
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(—÷ãÍøÿÿÿÿ
+D
+java:S2447Š"-Null is returned but a "Boolean" is expected.(¥¹ï
+R
+java:S1854‚"6Remove this useless assignment to local variable "s1".(ä•»Ïúÿÿÿÿ
+S
+java:S1854…"<Remove this useless assignment to local variable "response".(„Øâì
+H
+java:S1481y"-Remove this unused "response" local variable.(×îœğúÿÿÿÿ
+C
+java:S1481‚"'Remove this unused "s1" local variable.(ä•»Ïúÿÿÿÿ
+Zsecrets:S6336L"<Make sure this Alibaba Cloud Access Key ID is not disclosed.(Š’ŞÜúÿÿÿÿ

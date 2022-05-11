@@ -1,0 +1,26 @@
+aliyun:
+    oss:
+        file:
+            accessKeyId: LTAI5t91ZcSCRuVcwdZ2eUPE
+            bucketname: tx170727
+            endpoint: oss-cn-shanghai.aliyuncs.com
+            secretAccessKey: zxkhK78QkuHMtmbIsJXIzfX9S5zRD5
+server:
+    port: 8002
+spring:
+    application:
+        name: service-oss
+        profiles:
+            active: dev
+    mvc:
+        pathmatch:
+            matching-strategy: ant_path_matcher
+    servlet:
+        multipart:
+             max-file-size: 100MB # 单个文件大小
+             max-request-size: 100MB # 设置总上传的数据大小
+             enabled: true #开启
+    cloud:
+        nacos:
+            discovery:
+                server-addr: 127.0.0.1:8848

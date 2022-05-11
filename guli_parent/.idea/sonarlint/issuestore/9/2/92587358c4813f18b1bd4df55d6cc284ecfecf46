@@ -1,0 +1,10 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¡‡øÿÿÿÿÿ
+h	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ùŒØþÿÿÿÿ
+S
+java:S1854%"8Remove this useless assignment to local variable "flag".(’Çƒúüÿÿÿÿ
+D
+java:S1481%")Remove this unused "flag" local variable.(’Çƒúüÿÿÿÿ
+h	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ×ÜÅýÿÿÿÿ
+s
+java:S14880"]Immediately return this expression instead of assigning it to the temporary variable "count".(œŒ­î
